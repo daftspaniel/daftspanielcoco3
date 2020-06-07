@@ -1,0 +1,11 @@
+Oct 2018 - A minigame in 10 lines of BASIC by Davy Mitchell
+
+Gameplay Video : https://youtu.be/tTXXld8Uue0
+
+You are the sheriff of an artic outpost.
+
+Stop the advancing polar bears from attacking the town.
+
+Press the requested 3 keys (A to Z) to Ready! Aim! Fire!
+
+N.B Be kind to real polar bears :-)

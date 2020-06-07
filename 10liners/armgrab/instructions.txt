@@ -1,0 +1,11 @@
+Nov 2018 - A minigame in 10 lines of BASIC by Davy Mitchell
+
+MC10 Gameplay Video : https://youtu.be/UA9B4U6eZJs
+
+You are the MC10 droid with an extendable arm.
+
+Catch the falling gold blocks but avoid the blue acid.
+
+Press and hold A to extend your arm. Release to retract.
+
+The longer your arm when you Catch the gold the more points you get!

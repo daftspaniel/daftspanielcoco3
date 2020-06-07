@@ -1,0 +1,6 @@
+Oct 2018 - A minigame in 10 lines of BASIC by Davy Mitchell
+
+Gameplay Video : https://youtu.be/qq2K43xZB14
+
+Enjoy the thrill of Llama racing!
+Pick a llama and hope it is a winner.

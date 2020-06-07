@@ -1,0 +1,12 @@
+1DIMU$(4),L$(4),P(4):O$=CHR$(128):U$(1)=O$+CHR$(146)+CHR$(149)+CHR$(152):L$(1)=O$+CHR$(158)+CHR$(157):U$(2)=O$+CHR$(210)+CHR$(213)+CHR$(216):L$(2)=O$+CHR$(222)+CHR$(221):U$(3)=O$+CHR$(242)+CHR$(245)+CHR$(248):L$(3)=O$+CHR$(254)+CHR$(253)
+2U$(4)=O$+CHR$(226)+CHR$(229)+CHR$(232):L$(4)=O$+CHR$(238)+CHR$(237):C=4:W$="llama"+O$+"winner"+O$+O$:P$=STRING$(32,CHR$(179))+O$+O$+O$+O$+O$+O$+O$+O$+"pick"+O$+"a"+O$+"llama"+O$+"ABCD":W=0:L=0
+3CLS0:N$="":P(1)=1:P(2)=1:P(3)=1:P(4)=1:?@490,"won"+STR$(W)+O$+O$+"lost"+STR$(L);:FORF=0TO10:?@30+(F*32),CHR$(201)+CHR$(201);:NEXT
+4FORJ=0TO(C-1):?@J*96,CHR$(65+J);:NEXT:?@352,P$;:INPUTV$:?@384,O$+O$+O$+O$+O$+O$+O$+"you"+O$+"picked"+O$+"llama"+O$+V$+O$+O$+O$+O$+O$+O$+O$+O$;
+5R=1:FORJ=0TO(C-1):O=J*96:?@O+P(R),U$(R);:?@O+32+P(R),L$(R);:R=R+1:NEXT:IFLEN(N$)>0THENGOTO8
+6FORA=1TOC:P(A)=P(A)+RND(2)-1:IFP(A)>27THENN$=N$+CHR$(64+A)+O$
+7SOUND100+P(A),1:NEXT:GOTO5
+8IFLEFT$(N$,1)=V$THENW=W+1:GOTO10
+9L=L+1
+10?@490,W$+N$;:SOUND205,2:SOUND215,3:SOUND225,4:FORD=1TO2000:NEXTD:GOTO3
+RUN
+
